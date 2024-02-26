@@ -33,9 +33,24 @@ a{
 }
 
 .card:hover{
-    border: 1px solid var(--orange);
+    border: 2px solid var(--orange);
 }
 
+.card:hover .information{
+    text-align: center;
+}
+
+header li:hover{
+    color: black
+}
+
+.flex > li:hover{
+    text-decoration: underline;
+}
+
+footer li:hover{
+    color: var(--orange);
+}
 
 
 
@@ -56,6 +71,10 @@ body{
 
 .pd10{
     padding: 10px 0px;
+}
+
+.pd50{
+    padding: 50px 0px;
 }
 
 
@@ -106,16 +125,13 @@ header > div{
     align-items: center;
 }
 
-.header-menu{
+.header-menu, .user-area{
     width: 30%;
 }
 
-.user-area{
-    width: 20%
-}
 
 .logo{
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 
@@ -131,7 +147,8 @@ header > div{
 main{
     position: relative;
     top: 50px;
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .col{
@@ -180,7 +197,6 @@ main{
 /* information */
 .information{
     line-height: 1rem;
-    padding-left: 5px;
 }
 
 .information > h5{
@@ -201,3 +217,26 @@ main{
 }
 
 /* FOOTER */
+
+footer{
+    background-color: var(--black-footer);
+    color: white;
+    line-height: 1.5rem;
+}
+
+.col-large{
+    width: 80%;
+    
+}
+
+.col-large li{
+    font-size: 0.8rem;
+}
+
+.col-small{
+    width: 20%;
+}
+
+.col-small li{
+    font-size: 1.2rem;
+}
