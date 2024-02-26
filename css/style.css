@@ -7,3 +7,100 @@
 img{
     max-width: 100%;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+
+/* UTILITIES */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root{
+    --orange:#FF6900;
+    --green:#008000;
+    --balck: #000000;
+    --red: #FF0000;
+    --black-footer: #1A1A1A;
+}
+
+.pd10{
+    padding: 10px 0;
+}
+
+.gap15{
+    gap: 15px;
+}
+
+/* COMMON */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.relative{
+    position:relative
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--orange);
+    color: white;
+    font-size: 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0px 2px 2px grey;
+}
+
+header > div{
+    align-items: center;
+}
+
+.header-menu{
+    width: 30%;
+}
+
+.user-area{
+    width: 20%
+}
+
+.logo{
+    width: 50%;
+    text-align: center;
+}
+
+.logo img{
+    width: 10rem;
+}
+
+.user-area ul{
+    justify-content: right;
+}
+
+
+/* MAIN */
+
+/* FOOTER */
