@@ -32,6 +32,10 @@ a{
     display: inline-block;
 }
 
+.card:hover{
+    border: 1px solid var(--orange);
+}
+
 
 
 
@@ -126,7 +130,8 @@ header > div{
 
 main{
     position: relative;
-    top: 100px;
+    top: 50px;
+    padding: 50px 0px;
 }
 
 .col{
@@ -175,6 +180,11 @@ main{
 /* information */
 .information{
     line-height: 1rem;
+    padding-left: 5px;
+}
+
+.information > h5{
+    text-transform: uppercase;
 }
 
 .brand, .price, .price-discount{
