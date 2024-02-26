@@ -17,6 +17,23 @@ a{
     cursor: pointer;
 }
 
+/* EFFECTS */
+
+.favorite:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.card:hover .img-1{
+    display: none;
+}
+
+.card:hover .img-2{
+    display: inline-block;
+}
+
+
+
 
 /* UTILITIES */
 
@@ -34,11 +51,16 @@ body{
 }
 
 .pd10{
-    padding: 10px 0;
+    padding: 10px 0px;
 }
+
 
 .gap15{
     gap: 15px;
+}
+
+.gap10{
+    gap: 10px;
 }
 
 /* COMMON */
@@ -66,7 +88,8 @@ body{
 header{
     background-color: var(--orange);
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
     position: fixed;
     left: 0;
     top: 0;
@@ -99,8 +122,72 @@ header > div{
 .user-area ul{
     justify-content: right;
 }
-
-
 /* MAIN */
+
+main{
+    position: relative;
+    top: 100px;
+}
+
+.col{
+    justify-content: center;
+}
+
+.card{
+    width: calc(100% / 3 - 10px);
+}
+
+.flag > span{
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    bottom: 50px;
+    left: 0px;
+}
+
+.favorite{
+    padding: 10px 15px;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.flag {
+    bottom: 40px;
+    left: 0px;
+    z-index: 1;
+}
+.discount{
+    background-color: var(--red);
+}
+
+.characteristic{
+    background-color: var(--green);
+}
+
+.img-2{
+    display: none;
+}
+
+/* information */
+.information{
+    line-height: 1rem;
+}
+
+.brand, .price, .price-discount{
+    font-size: 0.8rem;
+}
+
+.price{
+    color: var(--red);
+    font-weight: bold;
+}
+
+.price-discount{
+    text-decoration: line-through;
+}
 
 /* FOOTER */
