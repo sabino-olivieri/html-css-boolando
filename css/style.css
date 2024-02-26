@@ -52,14 +52,11 @@ footer li:hover{
     color: var(--orange);
 }
 
-
-
 /* UTILITIES */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 :root{
     --orange:#FF6900;
@@ -76,7 +73,6 @@ body{
 .pd50{
     padding: 50px 0px;
 }
-
 
 .gap15{
     gap: 15px;
@@ -129,7 +125,6 @@ header > div{
     width: 30%;
 }
 
-
 .logo{
     width: 40%;
     text-align: center;
@@ -157,6 +152,7 @@ main{
 
 .card{
     width: calc(100% / 3 - 10px);
+    border: 2px solid white;
 }
 
 .flag > span{
